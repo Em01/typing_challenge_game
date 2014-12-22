@@ -17,4 +17,17 @@ end
 
 class Test
 
+	def display_greeting
+
+		Console_Screen.cls 
+
+		print "\t\t Welcome to the Typing Challenge" +
+		"\n\n\n\n\n\n\n\n\n\n\n\n\nPress Enter to " +
+				"continue. \n\n: "
+
+		Console_Screen.pause 
+
+	end
+
 end
+
