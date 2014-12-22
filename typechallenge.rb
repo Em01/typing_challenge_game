@@ -44,5 +44,28 @@ class Test
 
 		end
 
+		def present_test(challenge)
+
+			Console_Screen.class
+			print challenge + "\n\n: " 
+			result = STDIN.gets 
+			result.chop!
+
+			if challenge == result then 
+
+				$noRight += 1
+				Console_Screen.cls 
+				print "Correct!\n\nPress Enter to continue."
+				Console_Screen.pause 
+
+			else
+
+				Console_Screen.cls 
+				print "Incorrect!\n\nPress Enter to continue."
+				Console_Screen.pause
+
+			end
+
+		end
 end
 
