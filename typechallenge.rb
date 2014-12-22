@@ -29,5 +29,20 @@ class Test
 
 	end
 
+	def display_instructions
+
+		Console_Screen.cls
+		puts "\t\t\tInstructions:\n\n" 
+
+		puts%Q{ 	This test consists of five typing challenges. Each sentence is a challenge and are presented one at a time. To respond
+			correctly you should retype each sentence exactly as it is shown and the press the Enter key. Your grade will be displayed at 
+			the end of the test. 
+			\n\n\n\n\n\n\n\n\n
+			Press Enter to continue. \n\n}
+
+			Console_Screen.pause     
+
+		end
+
 end
 
