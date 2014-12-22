@@ -14,3 +14,7 @@ class Sceen
 	end
 
 end
+
+class Test
+
+end
