@@ -67,5 +67,20 @@ class Test
 			end
 
 		end
+
+		def determine_grade
+
+			Console_Screen.cls 
+
+			if $noRight >= 3 then 
+				print "You retyped " + $noRight.to_s + " sentence(s) correctly. "
+				puts "You have passed the typing test!\n\nPress Enter to continue."
+
+			else 
+
+				print "You retyped " + $noRight.to_s + " sentence(s) correctly. "
+				puts "You have failed the typing test!\n\nPress Enter to continue."
+			end
+		end
 end
 
