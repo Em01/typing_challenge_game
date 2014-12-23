@@ -82,5 +82,14 @@ class Test
 				puts "You have failed the typing test!\n\nPress Enter to continue."
 			end
 		end
+
+		#Main script logic
+
+		$noRight = 0
+
+		Console_Screen = Screen.new
+		Typing_Test = Test.new 
+
+		Typing_Test.display_greeting
 end
 
