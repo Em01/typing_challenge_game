@@ -91,5 +91,24 @@ class Test
 		Typing_Test = Test.new 
 
 		Typing_Test.display_greeting
+
+		Console_Screen.cls 
+
+		print "Would you like to test your typing skills? (y/n)\n\n: "
+
+		answer = STDIN.gets 
+		answer.chop!
+
+		until answer == "y" || answer == "n"
+
+			Console_Screen.cls 
+
+			print "Would you like to test your typing skills? (y/n)\n\n: "
+
+			answer = STDIN.gets
+
+			answer.chop!
+
+		end
 end
 
