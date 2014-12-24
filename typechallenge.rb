@@ -41,7 +41,7 @@ class Test
 
 			Console_Screen.pause     
 
-		end
+		End
 
 		def present_test(challenge)
 
@@ -134,5 +134,7 @@ class Test
 			puts "Thank you for playing the game!\n\n"
 
 		end
+
+end
 end
 
