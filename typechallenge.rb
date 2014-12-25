@@ -2,7 +2,7 @@
 #Description: Demonstrating how to apply conditional logic in order to analyze user input and control
 #the execution of the script through a computer typing test.
 
-class Sceen
+class Screen
 
 	def cls
 		puts ("\n" * 25)
@@ -45,7 +45,7 @@ class Test
 
 		def present_test(challenge)
 
-			Console_Screen.class
+			Console_Screen.cls
 			print challenge + "\n\n: " 
 			result = STDIN.gets 
 			result.chop!
