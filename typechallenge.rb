@@ -86,12 +86,12 @@ class Test
 
 		$noRight = 0
 
-		Console_Screen = Screen.new
-		Typing_Test = Test.new 
+		console_screen = Screen.new
+		typing_test = Test.new 
 
-		Typing_Test.display_greeting
+		typing_test.display_greeting
 
-		Console_Screen.cls 
+		console_screen.cls 
 
 		print "Would you like to test your typing skills? (y/n)\n\n: "
 
