@@ -41,7 +41,7 @@ class Test
 
 			Console_Screen.pause     
 
-		End
+		end
 
 		def present_test(challenge)
 
@@ -86,12 +86,12 @@ class Test
 
 		$noRight = 0
 
-		console_screen = Screen.new
-		typing_test = Test.new 
+		Console_Screen = Screen.new
+		Typing_Test = Test.new 
 
-		typing_test.display_greeting
+		Typing_Test.display_greeting
 
-		console_screen.cls 
+		Console_Screen.cls 
 
 		print "Would you like to test your typing skills? (y/n)\n\n: "
 
@@ -136,5 +136,5 @@ class Test
 		end
 
 end
-end
+
 
